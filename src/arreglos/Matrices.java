@@ -30,5 +30,22 @@ public class Matrices {
                 System.out.println("valor["+renglon+"]["+columna+"]= "+matriz[renglon][columna]);
             }
         }
+
+
+        System.out.println(" ");
+
+        //version simplificada
+        var matrizSimple = new int [][]{
+                {1,2,3},
+                {4,5,6}
+        };
+
+
+        for (var renglon=0; renglon<matrizSimple.length; renglon++ ){
+            //recorrer columnas
+            for (var columna = 0; columna<matrizSimple[renglon].length; columna++){
+                System.out.println("valor["+renglon+"]["+columna+"]= "+matrizSimple[renglon][columna]);
+            }
+        }
     }
 }
